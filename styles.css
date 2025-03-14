@@ -28,7 +28,7 @@
 
 .Heading{
     display: inline;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Outfit','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
 }
 
@@ -43,13 +43,13 @@
 
 h1,h2,h3,h4{
     margin-bottom: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Outfit','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p{
     margin-bottom: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-family:'Outfit','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
 }
 
 
