@@ -1,4 +1,4 @@
-.Header{
+.NavBar{
     display: flex;
     height: 50px;
     flex-direction: row;
@@ -6,13 +6,13 @@
     justify-content:space-between;
 }
 
-.Header-left{
+.Nav-left{
     display: inline;
     height: 30px;
     width: 30px;   
 }
 
-.Header-svg{
+.Nav-svg{
     height: 30px;
     width: 30px ;
     padding-right: 15px;
@@ -24,6 +24,10 @@
     font-size: 40px;
 }
 
-.Header-middle{
+.Nav-middle{
+    display: inline;
+}
+
+.Nav-right{
     display: inline;
 }
