@@ -1,0 +1,29 @@
+.Header{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    align-items: center ;
+    justify-content:space-between;
+}
+
+.Header-left{
+    display: inline;
+    height: 30px;
+    width: 30px;   
+}
+
+.Header-svg{
+    height: 30px;
+    width: 30px ;
+    padding-right: 15px;
+}
+
+.Heading{
+    display: inline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.Header-middle{
+    display: inline;
+}
