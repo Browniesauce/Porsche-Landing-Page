@@ -118,3 +118,15 @@ img{
     font-size: 30px;
     color: #f6c100;
 }
+
+.Label-Three{
+    padding-left: 20px;
+    font-size: 30px;
+    color: #ff0040;
+}
+
+.Label-Four{
+    padding-left: 20px;
+    font-size: 30px;
+    color: #00b0f6;
+}
