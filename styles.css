@@ -79,6 +79,7 @@ p{
     flex-direction: column;
     text-align: justify;
     height: 100vh;
+    min-width: 560px;
     width: 40vw;
     justify-content: left;
     justify-items: left;
@@ -92,7 +93,8 @@ p{
 img{
     padding-top: 0px;
     height:68vh;
-
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .Info-text{
@@ -123,6 +125,7 @@ img{
     flex-direction: column;
     text-align: justify;
     height: 100vh;
+    min-width: 560px;
     width: 40vw;
     justify-content: left;
     justify-items: left;
