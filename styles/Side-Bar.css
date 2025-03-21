@@ -18,12 +18,13 @@
 }
 
 .X-Button{
-    height: 50px;
+    height: 40px;
 }
 
 .Closing-Button{
     padding-top: 3px;
     background-color: #222831;
+    border-color: #222831;
     border-radius: 10px;
     border-style: solid;
     cursor: pointer;
@@ -57,4 +58,22 @@
     list-style:none ;
     color:#DDDDDD;
     text-decoration: none;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #DDDDDD;
+    
+}
+
+.Cars{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
