@@ -14,10 +14,13 @@
     background-color: rgb(58, 58, 58);
 }
 
-.Nav-left{
-    display: inline;
-    height: 30px;
-    width: 30px; 
+/*.Nav-left{
+}*/
+
+.Menu {
+    padding-top: 5px;
+    height: 50px;
+    width: 50px;
     padding-left: 10px;
 }
 
