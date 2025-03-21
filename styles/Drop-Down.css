@@ -1,8 +1,20 @@
-.NineEleven:hover{
+.Drop-Down-Button{
+    background-color: #222831;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #222831;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
-.sub-menu-911{
+.sub-menu-911 {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-718{
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.5s;
