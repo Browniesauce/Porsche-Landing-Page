@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porsche</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/Side-Bar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -13,19 +14,38 @@
 <nav class=" navbar-expand-lg bg-body-tertiary">
     <div class="NavBar">
         <div class="Nav-left ">
-
-            <ul class="Nav-List">
-                <li id="Nav-List">Models</li>
-                <li id="Nav-List">ShoppingTools</li>
-                <li id="Nav-List">Services</li>
-                <li id="Nav-List">Experience</li>
-            </ul>
+            <img src="src\svg-files\burger-menu-svgrepo-com (2).svg" alt="Menu" class="Menu">
         </div>
         <div class="Nav-middle">
             <p class="Heading ">Porsche</p>
         </div>
         <div class="Nav-right">
             <img src="src\svg-files\reshot-icon-user-QLCUYJBKM3.svg" alt="User" class="Nav-svg">
+        </div>
+    </div>
+</nav>
+
+<nav class="Sidebar-Main">
+    <div class="Side-Bar-Content">
+        <div class="Header">
+            <h1 class="Side-Bar-Heading">Models</h1>
+            <button class="Closing-Button"><img class="X-Button" src="src\svg-files\cross-circle-svgrepo-com.svg" alt=""></button>
+        </div>
+        <div class="Options">
+            <ul class="items">
+                <li><h2 class="Cars">911 Series</h2></li>
+                <li><h2 class="Cars">718 Series</h2></li>
+                <li><h2 class="Cars">Taycan Series</h2></li>
+                <li><h2 class="Cars">Panamera</h2></li>
+                <li><h2 class="Cars">Macan Series</h2></li>
+                <li><h2 class="Cars">Cayenne Series</h2></li>
+            </ul>
+        
+            <ul class="items">
+                <li><a href="#" class="items"><p>ShoppingTools</p></a></li>
+                <li><a href="pages/About.html" class="items"><p>Services</p></a></li>
+                <li><a href="pages/Contact.html" class="items"><p>Experience</p></a></li>
+            </ul>
         </div>
     </div>
 </nav>
