@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #F05454;
+}
+
 .sub-menu-911 {
     max-height: 0px;
     overflow: hidden;
